@@ -49,7 +49,7 @@ ul {
 }
 
 .page-header {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 .header{
   display: flex;
@@ -355,6 +355,7 @@ ul {
 .card {
   background-color: var(--white-color);
   border: 1px solid var(--borders);
+  border-top: transparent;
 }
 
 .works {
