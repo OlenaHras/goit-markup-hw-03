@@ -15,6 +15,7 @@
   --secondary-bg-color: #F5F4FA;
   --footer-color: #2f303a;
   --borders: #EEEEEE;
+  --retreat: 94px;
 }
 
 body {
@@ -142,8 +143,8 @@ ul {
 
 /* section */
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--retreat);
+  padding-bottom: var(--retreat);
 }
 
 .section-title {
@@ -202,7 +203,7 @@ ul {
 
 /* works */
 .section-works {
-  padding-bottom: 94px;
+  padding-bottom: var(--retreat);
 }
 .work-list {
   display: flex;
@@ -219,8 +220,8 @@ ul {
 /* command */
 .section-command {
   background-color: var(--secondary-bg-color);
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: var(--retreat);
+  padding-top: var(--retreat);
 }
 .command-list {
   display: flex;
@@ -356,11 +357,12 @@ ul {
   background-color: var(--white-color);
   border: 1px solid var(--borders);
   border-top: transparent;
+  padding: 20px 24px;
 }
 
 .works {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--retreat);
+  padding-bottom: var(--retreat);
 }
 
 .works a {
@@ -372,12 +374,11 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding: 20px 24px 4px 24px;
+  padding-bottom: 4px;
 }
 .works p {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  padding: 0px 24px 20px 24px;
 }
