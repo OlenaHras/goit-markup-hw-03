@@ -20,7 +20,6 @@
 
 body {
   color: var(--primary-text-color);
-  /* background-color: #e5e5e5; */
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -225,10 +224,6 @@ ul, li {
   cursor: pointer;
 }
 
- /* works */
- /* .section-works { 
-  padding-bottom: var(--retreat);
-}  */
 .work-list {
   display: flex;
   flex-wrap: wrap;
@@ -290,9 +285,7 @@ ul, li {
   padding-bottom: 60px;
 
 }
-.address-list {
-  /* padding-bottom: 60px; */
-}
+
 
 .address-list .link {
   color: rgba(255, 255, 255, 0.6);
