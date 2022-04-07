@@ -62,6 +62,24 @@ ul, li {
 
 }
 
+/* section */
+.section {
+  padding-top: var(--retreat);
+  padding-bottom: var(--retreat);
+}
+
+
+.section-title {
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .page-header {
   border-bottom: 1px solid #ECECEC;
 }
@@ -152,33 +170,10 @@ ul, li {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-/* section */
-.section {
-  padding-top: var(--retreat);
-  padding-bottom: var(--retreat);
-}
-.section:nth-child(4) {
-  background-color: var(--secondary-bg-color);
-}
-
-.section:nth-child(2){
-  padding-bottom: 0;
-}
-
-.section-title {
-  margin-bottom: 50px;
-
-  color: var(--title-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
 
 /* features */
 .feature-list {
@@ -225,6 +220,11 @@ ul, li {
   cursor: pointer;
 }
 
+/* What we do */
+.work {
+  padding-top: 0;
+}
+
 .work-list {
   display: flex;
   flex-wrap: wrap;
@@ -238,6 +238,9 @@ ul, li {
 }
 
 /* command */
+.team {
+  background-color: var(--secondary-bg-color);
+}
 
 .command-list {
   display: flex;
